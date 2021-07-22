@@ -16,16 +16,6 @@
 		011E8DAD26AA28E300DA2104 /* Doc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011E8DAC26AA28E300DA2104 /* Doc.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		011E8DA926AA288C00DA2104 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 011E8D7F26AA26F400DA2104 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 011E8D9D26AA285700DA2104;
-			remoteInfo = iOSDocModule;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		011E8D8826AA26F400DA2104 /* iOSCoreModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSCoreModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		011E8D8B26AA26F400DA2104 /* iOSCoreModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSCoreModule.h; sourceTree = "<group>"; };
@@ -137,11 +127,11 @@
 				011E8D8426AA26F400DA2104 /* Sources */,
 				011E8D8526AA26F400DA2104 /* Frameworks */,
 				011E8D8626AA26F400DA2104 /* Resources */,
+				011E8DAE26AA315000DA2104 /* Build framework */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				011E8DAA26AA288C00DA2104 /* PBXTargetDependency */,
 			);
 			name = iOSCoreModule;
 			productName = iOSCoreModule;
@@ -220,6 +210,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		011E8DAE26AA315000DA2104 /* Build framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build framework";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-Universal\n# Make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Next, work out if we're in SIMULATOR or REAL DEVICE\n#xcodebuild -target \"iOSCoreModule\" -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" build\n#xcodebuild -target \"iOSCoreModule\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" build\n\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		011E8D8426AA26F400DA2104 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -239,14 +250,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		011E8DAA26AA288C00DA2104 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 011E8D9D26AA285700DA2104 /* iOSDocModule */;
-			targetProxy = 011E8DA926AA288C00DA2104 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		011E8D8E26AA26F400DA2104 /* Debug */ = {
@@ -301,7 +304,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -359,7 +362,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
