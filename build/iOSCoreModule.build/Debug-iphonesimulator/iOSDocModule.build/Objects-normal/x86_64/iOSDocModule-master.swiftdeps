@@ -1,5 +1,7 @@
 version: "Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)"
-options: "bce0ef2d509eb5bf2aa26678dce10d16"
-build_time: [1627056020, 76543000]
+options: "5f6ef6fcfac05269eb171b13cb8c5638"
+build_time: [1627068807, 125122000]
 inputs:
   "/Users/apineda/Documents/truora/samples/modularized-ios/iOSCoreModule/iOSDocModule/Doc.swift": [1626993040, 424594033]
+  "/Users/apineda/Documents/truora/samples/modularized-ios/iOSCoreModule/iOSDocModule/DocumentModuleConfig.swift": [1627066770, 455036695]
+  "/Users/apineda/Documents/truora/samples/modularized-ios/iOSCoreModule/iOSDocModule/DocConfigurator.swift": [1627066770, 488500416]

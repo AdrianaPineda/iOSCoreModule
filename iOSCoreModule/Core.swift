@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import CommonMOdule
 
 public class Core {
     public init() {
@@ -15,5 +16,10 @@ public class Core {
     public func testDoc() -> String {
         let bridge = OptionalDepBridge()
         return bridge.startDummyDoc()
+    }
+
+    public func testCommon() {
+        let customTheme = CustomTheme()
+        print("*** \(customTheme != nil)")
     }
 }
