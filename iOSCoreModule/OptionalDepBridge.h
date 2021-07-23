@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface OptionalDepBridge : NSObject
 
 + (BOOL)additionalModuleAvailable;
-- (void)startDummyDoc;
+- (NSString *)startDummyDoc;
 
 @end
 

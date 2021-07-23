@@ -12,8 +12,8 @@ public class Core {
 
     }
 
-    public func testDoc() {
+    public func testDoc() -> String {
         let bridge = OptionalDepBridge()
-        bridge.startDummyDoc()
+        return bridge.startDummyDoc()
     }
 }

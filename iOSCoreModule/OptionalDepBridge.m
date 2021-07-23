@@ -17,11 +17,11 @@
         return NO;
     }
 }
-- (void)startDummyDoc {
+- (NSString *)startDummyDoc {
     if ([OptionalDepBridge additionalModuleAvailable]) {
-        NSLog(@"****** YES");
+        return @"YES";
     } else {
-        NSLog(@"****** NO");
+        return @"NO";
     }
 }
 
