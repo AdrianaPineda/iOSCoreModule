@@ -12,7 +12,7 @@
 		011E8D9626AA279F00DA2104 /* OptionalDepBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 011E8D9426AA279F00DA2104 /* OptionalDepBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		011E8D9826AA27F400DA2104 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011E8D9726AA27F400DA2104 /* Core.swift */; };
 		011E8DA226AA285700DA2104 /* iOSDocModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 011E8DA026AA285700DA2104 /* iOSDocModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		011E8DA726AA288C00DA2104 /* iOSDocModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 011E8D9E26AA285700DA2104 /* iOSDocModule.framework */; };
+		011E8DA726AA288C00DA2104 /* iOSDocModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 011E8D9E26AA285700DA2104 /* iOSDocModule.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		011E8DAD26AA28E300DA2104 /* Doc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011E8DAC26AA28E300DA2104 /* Doc.swift */; };
 /* End PBXBuildFile section */
 
@@ -146,6 +146,7 @@
 				011E8D9A26AA285700DA2104 /* Sources */,
 				011E8D9B26AA285700DA2104 /* Frameworks */,
 				011E8D9C26AA285700DA2104 /* Resources */,
+				01CB30BD26AB05BA00616849 /* Build archs */,
 			);
 			buildRules = (
 			);
@@ -227,7 +228,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-Universal\n# Make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Next, work out if we're in SIMULATOR or REAL DEVICE\n#xcodebuild -target \"iOSCoreModule\" -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" build\n#xcodebuild -target \"iOSCoreModule\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" build\n\n\n";
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n#UNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-Universal\n# Make sure the output directory exists\n#mkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Next, work out if we're in SIMULATOR or REAL DEVICE\n#xcodebuild -target \"iOSCoreModule\" -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" build\n#xcodebuild -target \"iOSCoreModule\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\n\n";
+		};
+		01CB30BD26AB05BA00616849 /* Build archs */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build archs";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "OBJROOT=\"${OBJROOT}/DependentBuilds\"\n\n#xcodebuild -target \"iOSDocModule\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\n#xcodebuild -target \"iOSDocModule\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphonesimulator  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
