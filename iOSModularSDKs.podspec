@@ -7,83 +7,26 @@
 #
 
 Pod::Spec.new do |spec|
-
-  # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  These will help people to find your library, and whilst it
-  #  can feel like a chore to fill in it's definitely to your advantage. The
-  #  summary should be tweet-length, and the description more in depth.
-  #
-
   spec.name         = "iOSModularSDKs"
-  spec.version      = "0.0.1"
+  spec.version      = "0.1.0"
   spec.summary      = "A short description of iOSModularSDKs."
-
-  # This description is used to generate tags and improve search results.
-  #   * Think: What does it do? Why did you write it? What is the focus?
-  #   * Try to keep it short, snappy and to the point.
-  #   * Write the description between the DESC delimiters below.
-  #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = "Custom sample sdk cocoapod"
-
-  spec.homepage     = "http://EXAMPLE/iOSModularSDKs"
-  # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
-
+  spec.description  = "Custom sample sdk cocoapods"
+  spec.homepage     = "https://github.com/AdrianaPineda/iOSCoreModule"
   spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-
-
-  # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Specify the authors of the library, with email addresses. Email addresses
-  #  of the authors are extracted from the SCM log. E.g. $ git log. CocoaPods also
-  #  accepts just a name if you'd rather not provide an email address.
-  #
-  #  Specify a social_media_url where others can refer to, for example a twitter
-  #  profile URL.
-  #
-
   spec.author             = { "apineda-truora" => "apineda@truora.com" }
-  # Or just: spec.author    = "apineda-truora"
-  # spec.authors            = { "apineda-truora" => "apineda@truora.com" }
-  # spec.social_media_url   = "https://twitter.com/apineda-truora"
-
-  # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  If this Pod runs only on iOS or OS X, then specify the platform and
-  #  the deployment target. You can optionally include the target after the platform.
-  #
-
-  # spec.platform     = :ios
-  # spec.platform     = :ios, "5.0"
-
-  #  When using multiple platforms
+  s.user_target_xcconfig = {
+      'OTHER_LDFLAGS' => '-ObjC -lc++ -lz',
+      'CLANG_MODULES_AUTOLINK' => 'YES'
+  }
+  spec.source       = { :git => "git@github.com:AdrianaPineda/iOSCoreModule.git", :tag => "#{spec.version.to_s}" }
   spec.ios.deployment_target = "9.0"
 
-
-  # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Specify the location from where the source should be retrieved.
-  #  Supports git, hg, bzr, svn and HTTP.
-  #
-
-  spec.source       = { :git => "https://github.com/AdrianaPineda/iOSCoreModule.git", :tag => "#{spec.version}" }
-
-  spec.subspec 'iOSCoreModule' do |subspec|
-    subspec.source_files = ['iOSCoreModule/*.{swift, m, h}']
+  s.subspec 'iOSCoreModule' do |subspec|
+    subspec.vendored_frameworks = ['Products/iOSCoreModule.framework']
   end
 
-  # spec.subspec 'iOSDocModule' do |subspec|
-  #   subspec.source_files = ['iOSDocModule/*.{swift, m, h}']
-  # end
-
-
-  # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  CocoaPods is smart about how it includes source code. For source files
-  #  giving a folder will include any swift, h, m, mm, c & cpp files.
-  #  For header files it will include any header in the folder.
-  #  Not including the public_header_files will make all headers public.
-  #
-  # spec.public_header_files = "Classes/**/*.h"
+  s.subspec 'iOSDocModule' do |subspec|
+      subspec.vendored_frameworks = ['Products/iOSDocModule.framework']
+  end
 
 end
