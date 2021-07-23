@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |spec|
-  spec.name         = "iOSModularSDKs"
-  spec.version      = "0.1.0"
-  spec.summary      = "A short description of iOSModularSDKs."
+  spec.name         = "iOSCoreModule"
+  spec.version      = "0.2.0"
+  spec.summary      = "A short description of iOSCoreModule."
   spec.description  = "Custom sample sdk cocoapods"
   spec.homepage     = "https://github.com/AdrianaPineda/iOSCoreModule"
   spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
