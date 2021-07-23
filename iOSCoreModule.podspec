@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "iOSCoreModule"
-  spec.version      = "0.8.0"
+  spec.version      = "0.9.0"
   spec.summary      = "A short description of iOSCoreModule."
   spec.description  = "Custom sample sdk cocoapods"
   spec.homepage     = "https://github.com/AdrianaPineda/iOSCoreModule"
@@ -22,11 +22,11 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "9.0"
 
   spec.subspec 'iOSCoreModule' do |subspec|
-    subspec.vendored_frameworks = ['Products/iOSCoreModule.framework']
+    subspec.vendored_frameworks = ['Products/iOSCoreModule.xcframework']
   end
 
   spec.subspec 'iOSDocModule' do |subspec|
-      subspec.vendored_frameworks = ['Products/iOSDocModule.framework']
+      subspec.vendored_frameworks = ['Products/iOSDocModule.xcframework']
   end
 
 end

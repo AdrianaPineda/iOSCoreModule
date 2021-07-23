@@ -1,0 +1,11 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
+// swift-module-flags: -target i386-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name iOSDocModule
+import Foundation
+import Swift
+@_exported import iOSDocModule
+@_inheritsConvenienceInitializers @objc public class Doc : ObjectiveC.NSObject {
+  public func test() -> Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}

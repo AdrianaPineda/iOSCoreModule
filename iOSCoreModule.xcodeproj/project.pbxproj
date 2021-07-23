@@ -7,11 +7,22 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		01CB30C326AB19CC00616849 /* iOSCoreFramework */ = {
+		01CB30C326AB19CC00616849 /* iOSDocFramework */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 01CB30C426AB19CC00616849 /* Build configuration list for PBXAggregateTarget "iOSCoreFramework" */;
+			buildConfigurationList = 01CB30C426AB19CC00616849 /* Build configuration list for PBXAggregateTarget "iOSDocFramework" */;
 			buildPhases = (
 				01CB30C726AB19D000616849 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = iOSDocFramework;
+			productName = iOSCoreFramework;
+		};
+		01CB30C826AB1D7700616849 /* iOSCoreFramework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 01CB30CA26AB1D7700616849 /* Build configuration list for PBXAggregateTarget "iOSCoreFramework" */;
+			buildPhases = (
+				01CB30C926AB1D7700616849 /* ShellScript */,
 			);
 			dependencies = (
 			);
@@ -207,7 +218,8 @@
 			targets = (
 				011E8D8726AA26F400DA2104 /* iOSCoreModule */,
 				011E8D9D26AA285700DA2104 /* iOSDocModule */,
-				01CB30C326AB19CC00616849 /* iOSCoreFramework */,
+				01CB30C326AB19CC00616849 /* iOSDocFramework */,
+				01CB30C826AB1D7700616849 /* iOSCoreFramework */,
 			);
 		};
 /* End PBXProject section */
@@ -281,7 +293,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nDOC_FRAMEWORK_NAME=\"iOSDocModule\"\n\nxcodebuild -target \"${DOC_FRAMEWORK_NAME}\" \\\n-configuration ${CONFIGURATION} \\\n-sdk iphoneos BUILD_DIR=\"${BUILD_DIR}\" \\\nONLY_ACTIVE_ARCH=NO \\\nBUILD_LIBRARY_FOR_DISTRIBUTION=YES \\\nclean build\n\nxcodebuild -target \"${DOC_FRAMEWORK_NAME}\" \\\n-configuration ${CONFIGURATION} \\\n-sdk iphonesimulator \\\nBUILD_DIR=\"${BUILD_DIR}\" \\\nONLY_ACTIVE_ARCH=NO \\\nBUILD_LIBRARY_FOR_DISTRIBUTION=YES \\\nclean build\n\n\nCORE_FRAMEWORK_NAME=\"iOSCoreModule\"\n\nxcodebuild -target \"${CORE_FRAMEWORK_NAME}\" \\\n-configuration ${CONFIGURATION} \\\n-sdk iphoneos BUILD_DIR=\"${BUILD_DIR}\" \\\nONLY_ACTIVE_ARCH=NO \\\nBUILD_LIBRARY_FOR_DISTRIBUTION=YES \\\n\nxcodebuild -target \"${CORE_FRAMEWORK_NAME}\" \\\n-configuration ${CONFIGURATION} \\\n-sdk iphonesimulator \\\nBUILD_DIR=\"${BUILD_DIR}\" \\\nONLY_ACTIVE_ARCH=NO \\\nBUILD_LIBRARY_FOR_DISTRIBUTION=YES\n\nXCFRAMEWORK_NAME=\"${CORE_FRAMEWORK_NAME}.xcframework\"\nrm -rd \"${XCFRAMEWORK_NAME}\"\n\nxcodebuild -create-xcframework \\\n-framework \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${CORE_FRAMEWORK_NAME}.framework\" \\\n-framework \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${CORE_FRAMEWORK_NAME}.framework\" \\\n-output \"${XCFRAMEWORK_NAME}\"\n";
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nDOC_FRAMEWORK_NAME=\"iOSDocModule\"\n\nxcodebuild -target \"${DOC_FRAMEWORK_NAME}\" \\\n-configuration ${CONFIGURATION} \\\n-sdk iphoneos BUILD_DIR=\"${BUILD_DIR}\" \\\nONLY_ACTIVE_ARCH=NO \\\nBUILD_LIBRARY_FOR_DISTRIBUTION=YES \\\nclean build\n\nxcodebuild -target \"${DOC_FRAMEWORK_NAME}\" \\\n-configuration ${CONFIGURATION} \\\n-sdk iphonesimulator \\\nBUILD_DIR=\"${BUILD_DIR}\" \\\nONLY_ACTIVE_ARCH=NO \\\nBUILD_LIBRARY_FOR_DISTRIBUTION=YES \\\nclean build\n\nXCFRAMEWORK_NAME=\"${DOC_FRAMEWORK_NAME}.xcframework\"\nrm -rd \"${XCFRAMEWORK_NAME}\"\n\nxcodebuild -create-xcframework \\\n-framework \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${DOC_FRAMEWORK_NAME}.framework\" \\\n-framework \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${DOC_FRAMEWORK_NAME}.framework\" \\\n-output \"Products/${XCFRAMEWORK_NAME}\"\n";
+		};
+		01CB30C926AB1D7700616849 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\nrm -rf \"Products/*\"\n## Build Doc\nDOC_FRAMEWORK_NAME=\"iOSDocModule\"\n\nxcodebuild -target \"${DOC_FRAMEWORK_NAME}\" \\\n-configuration ${CONFIGURATION} \\\n-sdk iphoneos BUILD_DIR=\"${BUILD_DIR}\" \\\nONLY_ACTIVE_ARCH=NO \\\nBUILD_LIBRARY_FOR_DISTRIBUTION=YES \\\nclean build\n\nxcodebuild -target \"${DOC_FRAMEWORK_NAME}\" \\\n-configuration ${CONFIGURATION} \\\n-sdk iphonesimulator \\\nBUILD_DIR=\"${BUILD_DIR}\" \\\nONLY_ACTIVE_ARCH=NO \\\nBUILD_LIBRARY_FOR_DISTRIBUTION=YES \\\nclean build\n\nXCFRAMEWORK_NAME=\"${DOC_FRAMEWORK_NAME}.xcframework\"\nrm -rd \"${XCFRAMEWORK_NAME}\"\n\nxcodebuild -create-xcframework \\\n-framework \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${DOC_FRAMEWORK_NAME}.framework\" \\\n-framework \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${DOC_FRAMEWORK_NAME}.framework\" \\\n-output \"Products/${XCFRAMEWORK_NAME}\"\n\n## Build Core\nCORE_FRAMEWORK_NAME=\"iOSCoreModule\"\n\nxcodebuild -target \"${CORE_FRAMEWORK_NAME}\" \\\n-configuration ${CONFIGURATION} \\\n-sdk iphoneos BUILD_DIR=\"${BUILD_DIR}\" \\\nONLY_ACTIVE_ARCH=NO \\\nBUILD_LIBRARY_FOR_DISTRIBUTION=YES \\\n\nxcodebuild -target \"${CORE_FRAMEWORK_NAME}\" \\\n-configuration ${CONFIGURATION} \\\n-sdk iphonesimulator \\\nBUILD_DIR=\"${BUILD_DIR}\" \\\nONLY_ACTIVE_ARCH=NO \\\nBUILD_LIBRARY_FOR_DISTRIBUTION=YES\n\nXCFRAMEWORK_NAME=\"${CORE_FRAMEWORK_NAME}.xcframework\"\nrm -rd \"${XCFRAMEWORK_NAME}\"\n\nxcodebuild -create-xcframework \\\n-framework \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${CORE_FRAMEWORK_NAME}.framework\" \\\n-framework \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${CORE_FRAMEWORK_NAME}.framework\" \\\n-output \"Products/${XCFRAMEWORK_NAME}\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -552,6 +581,24 @@
 			};
 			name = Release;
 		};
+		01CB30CB26AB1D7700616849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8VBV2WGFSG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01CB30CC26AB1D7700616849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8VBV2WGFSG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -582,11 +629,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		01CB30C426AB19CC00616849 /* Build configuration list for PBXAggregateTarget "iOSCoreFramework" */ = {
+		01CB30C426AB19CC00616849 /* Build configuration list for PBXAggregateTarget "iOSDocFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01CB30C526AB19CC00616849 /* Debug */,
 				01CB30C626AB19CC00616849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01CB30CA26AB1D7700616849 /* Build configuration list for PBXAggregateTarget "iOSCoreFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01CB30CB26AB1D7700616849 /* Debug */,
+				01CB30CC26AB1D7700616849 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
