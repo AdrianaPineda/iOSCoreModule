@@ -20,9 +20,9 @@
 - (void)startDummyDoc {
     if ([OptionalDepBridge additionalModuleAvailable]) {
         NSLog(@"****** YES");
-        return;
+    } else {
+        NSLog(@"****** NO");
     }
-    NSLog(@"****** NO");
 }
 
 @end

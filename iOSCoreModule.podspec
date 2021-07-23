@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "iOSCoreModule"
-  spec.version      = "0.5.0"
+  spec.version      = "0.6.0"
   spec.summary      = "A short description of iOSCoreModule."
   spec.description  = "Custom sample sdk cocoapods"
   spec.homepage     = "https://github.com/AdrianaPineda/iOSCoreModule"
