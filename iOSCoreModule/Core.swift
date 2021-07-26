@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import iOSCommonModule
+@_implementationOnly import iOSCommonModule
 
 public class Core {
     public init() {

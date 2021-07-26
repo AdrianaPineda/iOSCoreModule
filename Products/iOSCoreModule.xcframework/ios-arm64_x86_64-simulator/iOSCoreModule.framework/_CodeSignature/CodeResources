@@ -14,7 +14,7 @@
 		</data>
 		<key>Frameworks/iOSCommonModule.framework/iOSCommonModule</key>
 		<data>
-		2IxYxzPumtzs7vvq1rT6zn78S5I=
+		3f18V6OcxrXC6HEcW99wz89Ej/Q=
 		</data>
 		<key>Headers/OptionalDepBridge.h</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Modules/iOSCoreModule.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		MX/nFnum0eObI8gy9CmBiCr8NmY=
+		EN1Nk0OK/CBPFZd7m++REAichTs=
 		</data>
 		<key>Modules/iOSCoreModule.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		bGgA9WYJr6NbwzBDkt2rNWg3Fpw=
+		BQj1789p1b+s8l+tDKE//7J6Xcw=
 		</data>
 		<key>Modules/iOSCoreModule.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -66,11 +66,11 @@
 		</data>
 		<key>Modules/iOSCoreModule.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		MX/nFnum0eObI8gy9CmBiCr8NmY=
+		EN1Nk0OK/CBPFZd7m++REAichTs=
 		</data>
 		<key>Modules/iOSCoreModule.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		bGgA9WYJr6NbwzBDkt2rNWg3Fpw=
+		BQj1789p1b+s8l+tDKE//7J6Xcw=
 		</data>
 		<key>Modules/iOSCoreModule.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -78,11 +78,11 @@
 		</data>
 		<key>Modules/iOSCoreModule.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Ua99zaOWEaG0dR32xtgjKFRE26Y=
+		lYizjyReEd8zNdLFxaYj1wdo5yA=
 		</data>
 		<key>Modules/iOSCoreModule.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		LK10p6KtakspoLS3RNYpBM6Gnsc=
+		9c9jyC6b7OWojsoZcukDmlst55g=
 		</data>
 		<key>Modules/iOSCoreModule.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -90,11 +90,11 @@
 		</data>
 		<key>Modules/iOSCoreModule.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		Ua99zaOWEaG0dR32xtgjKFRE26Y=
+		lYizjyReEd8zNdLFxaYj1wdo5yA=
 		</data>
 		<key>Modules/iOSCoreModule.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		LK10p6KtakspoLS3RNYpBM6Gnsc=
+		9c9jyC6b7OWojsoZcukDmlst55g=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -121,7 +121,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vM8CPBROpwb448dSkorHtoJn46sQOXnyVzPljzADQrI=
+			3fWt03dhdGy+BcT8E3A4trOBwd0Who9MmZFSl8FzUms=
 			</data>
 		</dict>
 		<key>Headers/OptionalDepBridge.h</key>
@@ -184,14 +184,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fMNm3NfzQLYg5tohHRmrx13lK6xy7e9n7R411sFqIAU=
+			6N5AagUmcOq9DvqZtkgGEyX6Jp5spySXf1LGMSMBR6A=
 			</data>
 		</dict>
 		<key>Modules/iOSCoreModule.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pMNlIJ/XCcnY24dZLcaWqXBdXjKsTGcdBZ8jt9ZRYyE=
+			zYWFKfGNIGbJuiIK/1Q6juosZBPDNvQ0iIA4UeUl3Qs=
 			</data>
 		</dict>
 		<key>Modules/iOSCoreModule.swiftmodule/arm64.swiftdoc</key>
@@ -205,14 +205,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fMNm3NfzQLYg5tohHRmrx13lK6xy7e9n7R411sFqIAU=
+			6N5AagUmcOq9DvqZtkgGEyX6Jp5spySXf1LGMSMBR6A=
 			</data>
 		</dict>
 		<key>Modules/iOSCoreModule.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pMNlIJ/XCcnY24dZLcaWqXBdXjKsTGcdBZ8jt9ZRYyE=
+			zYWFKfGNIGbJuiIK/1Q6juosZBPDNvQ0iIA4UeUl3Qs=
 			</data>
 		</dict>
 		<key>Modules/iOSCoreModule.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -226,14 +226,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ieTlgaC274gFqD6eoFg6t9uBDD1iFFbNTaEVhbZfHj4=
+			8T/VPd64jOJhcbIKktLoMQBbI2DkXBp3ZwW8TleD3Hc=
 			</data>
 		</dict>
 		<key>Modules/iOSCoreModule.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sv3XKX4o972js8DLEFy3NTPCQQDkcn3lEyN2ONfkFlM=
+			9VQXwrZpj1KXYRJ5Ikrfvd3JFNUNWG4Lyo/F2DLvK/s=
 			</data>
 		</dict>
 		<key>Modules/iOSCoreModule.swiftmodule/x86_64.swiftdoc</key>
@@ -247,14 +247,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ieTlgaC274gFqD6eoFg6t9uBDD1iFFbNTaEVhbZfHj4=
+			8T/VPd64jOJhcbIKktLoMQBbI2DkXBp3ZwW8TleD3Hc=
 			</data>
 		</dict>
 		<key>Modules/iOSCoreModule.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sv3XKX4o972js8DLEFy3NTPCQQDkcn3lEyN2ONfkFlM=
+			9VQXwrZpj1KXYRJ5Ikrfvd3JFNUNWG4Lyo/F2DLvK/s=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
