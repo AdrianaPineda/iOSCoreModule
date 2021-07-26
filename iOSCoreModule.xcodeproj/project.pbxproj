@@ -39,6 +39,7 @@
 		011E8DA226AA285700DA2104 /* iOSDocModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 011E8DA026AA285700DA2104 /* iOSDocModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		011E8DA726AA288C00DA2104 /* iOSDocModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 011E8D9E26AA285700DA2104 /* iOSDocModule.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		011E8DAD26AA28E300DA2104 /* Doc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011E8DAC26AA28E300DA2104 /* Doc.swift */; };
+		01565DBE26AF15B8004E4E48 /* iOSCommonModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 01565DBC26AF15B8004E4E48 /* iOSCommonModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,9 @@
 		011E8DA026AA285700DA2104 /* iOSDocModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSDocModule.h; sourceTree = "<group>"; };
 		011E8DA126AA285700DA2104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		011E8DAC26AA28E300DA2104 /* Doc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doc.swift; sourceTree = "<group>"; };
+		01565DBA26AF15B8004E4E48 /* iOSCommonModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSCommonModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01565DBC26AF15B8004E4E48 /* iOSCommonModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSCommonModule.h; sourceTree = "<group>"; };
+		01565DBD26AF15B8004E4E48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		01565DB726AF15B8004E4E48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +89,7 @@
 			children = (
 				011E8D8A26AA26F400DA2104 /* iOSCoreModule */,
 				011E8D9F26AA285700DA2104 /* iOSDocModule */,
+				01565DBB26AF15B8004E4E48 /* iOSCommonModule */,
 				011E8D8926AA26F400DA2104 /* Products */,
 				011E8DA626AA288C00DA2104 /* Frameworks */,
 			);
@@ -88,6 +100,7 @@
 			children = (
 				011E8D8826AA26F400DA2104 /* iOSCoreModule.framework */,
 				011E8D9E26AA285700DA2104 /* iOSDocModule.framework */,
+				01565DBA26AF15B8004E4E48 /* iOSCommonModule.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,6 +134,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		01565DBB26AF15B8004E4E48 /* iOSCommonModule */ = {
+			isa = PBXGroup;
+			children = (
+				01565DBC26AF15B8004E4E48 /* iOSCommonModule.h */,
+				01565DBD26AF15B8004E4E48 /* Info.plist */,
+			);
+			path = iOSCommonModule;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -138,6 +160,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				011E8DA226AA285700DA2104 /* iOSDocModule.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01565DB526AF15B8004E4E48 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01565DBE26AF15B8004E4E48 /* iOSCommonModule.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +212,24 @@
 			productReference = 011E8D9E26AA285700DA2104 /* iOSDocModule.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		01565DB926AF15B8004E4E48 /* iOSCommonModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01565DC126AF15B8004E4E48 /* Build configuration list for PBXNativeTarget "iOSCommonModule" */;
+			buildPhases = (
+				01565DB526AF15B8004E4E48 /* Headers */,
+				01565DB626AF15B8004E4E48 /* Sources */,
+				01565DB726AF15B8004E4E48 /* Frameworks */,
+				01565DB826AF15B8004E4E48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSCommonModule;
+			productName = iOSCommonModule;
+			productReference = 01565DBA26AF15B8004E4E48 /* iOSCommonModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,6 +245,9 @@
 					011E8D9D26AA285700DA2104 = {
 						CreatedOnToolsVersion = 12.5.1;
 						LastSwiftMigration = 1250;
+					};
+					01565DB926AF15B8004E4E48 = {
+						CreatedOnToolsVersion = 12.5.1;
 					};
 					01CB30C326AB19CC00616849 = {
 						CreatedOnToolsVersion = 12.5.1;
@@ -216,6 +267,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				01565DB926AF15B8004E4E48 /* iOSCommonModule */,
 				011E8D8726AA26F400DA2104 /* iOSCoreModule */,
 				011E8D9D26AA285700DA2104 /* iOSDocModule */,
 				01CB30C326AB19CC00616849 /* iOSDocFramework */,
@@ -233,6 +285,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		011E8D9C26AA285700DA2104 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01565DB826AF15B8004E4E48 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -329,6 +388,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				011E8DAD26AA28E300DA2104 /* Doc.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01565DB626AF15B8004E4E48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,6 +629,56 @@
 			};
 			name = Release;
 		};
+		01565DBF26AF15B8004E4E48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8VBV2WGFSG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = iOSCommonModule/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.truora.dynamicframework.iOSCommonModule;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01565DC026AF15B8004E4E48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8VBV2WGFSG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = iOSCommonModule/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.truora.dynamicframework.iOSCommonModule;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		01CB30C526AB19CC00616849 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -625,6 +741,15 @@
 			buildConfigurations = (
 				011E8DA426AA285700DA2104 /* Debug */,
 				011E8DA526AA285700DA2104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01565DC126AF15B8004E4E48 /* Build configuration list for PBXNativeTarget "iOSCommonModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01565DBF26AF15B8004E4E48 /* Debug */,
+				01565DC026AF15B8004E4E48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
