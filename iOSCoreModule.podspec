@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "iOSCoreModule"
-  spec.version      = "0.10.6"
+  spec.version      = "0.10.7"
   spec.summary      = "Sample po that includes Core and optional doc module"
   spec.description  = "Custom sample sdk cocoapods to test core and optional module. Includes core and optional doc module"
   spec.homepage     = "https://github.com/AdrianaPineda/iOSCoreModule"
@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
       'CLANG_MODULES_AUTOLINK' => 'YES'
   }
   spec.source       = { :git => "https://github.com/AdrianaPineda/iOSCoreModule.git", :tag => "#{spec.version.to_s}" }
-  spec.ios.deployment_target = "9.0"
+  spec.ios.deployment_target = "11.0"
 
   spec.subspec 'iOSCoreModule' do |subspec|
     subspec.vendored_frameworks = ['Products/iOSCoreModule.xcframework']
