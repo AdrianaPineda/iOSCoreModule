@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import iOSCommonModule
 
 public class Core {
     public init() {
@@ -15,5 +16,9 @@ public class Core {
     public func testDoc() -> String {
         let bridge = OptionalDepBridge()
         return bridge.startDummyDoc()
+    }
+
+    public func testCommonFromCore() -> Bool {
+        return BrandTheme(primaryColor: nil, secondaryColor: nil, fontColor: nil) != nil
     }
 }

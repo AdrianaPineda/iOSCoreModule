@@ -3,9 +3,11 @@
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name iOSCoreModule
 import Foundation
 import Swift
+import iOSCommonModule
 @_exported import iOSCoreModule
 public class Core {
   public init()
   public func testDoc() -> Swift.String
+  public func testCommonFromCore() -> Swift.Bool
   @objc deinit
 }

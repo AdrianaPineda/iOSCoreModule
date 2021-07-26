@@ -14,7 +14,7 @@
 		</data>
 		<key>Frameworks/iOSCommonModule.framework/iOSCommonModule</key>
 		<data>
-		HaRtG3wqjrjf5kCc3tErpnX1vz4=
+		eb0JzGUsQyr8X7CzcXFMWxAIlus=
 		</data>
 		<key>Headers/OptionalDepBridge.h</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/iOSCoreModule.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		BoXrYhoBYJgu43ju8NPtqTLkcA4=
+		fedOASYnx70C4lNEWSaW0iwZ6QI=
 		</data>
 		<key>Modules/iOSCoreModule.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		BoXrYhoBYJgu43ju8NPtqTLkcA4=
+		fedOASYnx70C4lNEWSaW0iwZ6QI=
 		</data>
 		<key>Modules/iOSCoreModule.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/iOSCoreModule.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		vlR8LBLxwk9utUV2lIFQ6yANG0c=
+		B6TND9NXhdH5kECu0NXZ3FZ1P7E=
 		</data>
 		<key>Modules/iOSCoreModule.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		rp2hLymnHDOYPbEe1g7/+WQtB74=
+		N/0owRHZkGTFs+S5qr5SRN4ZCkg=
 		</data>
 		<key>Modules/iOSCoreModule.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/iOSCoreModule.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		vlR8LBLxwk9utUV2lIFQ6yANG0c=
+		B6TND9NXhdH5kECu0NXZ3FZ1P7E=
 		</data>
 		<key>Modules/iOSCoreModule.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		rp2hLymnHDOYPbEe1g7/+WQtB74=
+		N/0owRHZkGTFs+S5qr5SRN4ZCkg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -89,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hCp93lpQ4/NQ4eO2fdWqXHBoCS2Up7WtkgcaT5Yj5aU=
+			xC9kCCFEJbD51gETcaaBcwVo8KNpzSiN+4uzzWLnlNg=
 			</data>
 		</dict>
 		<key>Headers/OptionalDepBridge.h</key>
@@ -117,14 +117,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/kfNYz1bTn9Evzg/oW2ZGi/JPZjhwMOHor8syyEUNco=
+			o0xzADyZLp49Dlzz288SLE0GL8aDgJKtIeKIckvx96Q=
 			</data>
 		</dict>
 		<key>Modules/iOSCoreModule.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/kfNYz1bTn9Evzg/oW2ZGi/JPZjhwMOHor8syyEUNco=
+			o0xzADyZLp49Dlzz288SLE0GL8aDgJKtIeKIckvx96Q=
 			</data>
 		</dict>
 		<key>Modules/iOSCoreModule.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -138,14 +138,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5rNrBAy20qAJaP7CjgzWUnhcl7KMsYQx4czcklEbVV4=
+			LHfIn9LYRLJ1OjfM2yaebpwQ6PNntwztOrrn+Ky9WGw=
 			</data>
 		</dict>
 		<key>Modules/iOSCoreModule.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			owu7iu5QE/6MA6Cq9EPMMTfW947+FsWNGkmxheVXVk8=
+			ueXwWxN3GPnLM/XVTjeBNSoJaUAue07hEMEXQ5FI2kI=
 			</data>
 		</dict>
 		<key>Modules/iOSCoreModule.swiftmodule/arm64.swiftdoc</key>
@@ -159,14 +159,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5rNrBAy20qAJaP7CjgzWUnhcl7KMsYQx4czcklEbVV4=
+			LHfIn9LYRLJ1OjfM2yaebpwQ6PNntwztOrrn+Ky9WGw=
 			</data>
 		</dict>
 		<key>Modules/iOSCoreModule.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			owu7iu5QE/6MA6Cq9EPMMTfW947+FsWNGkmxheVXVk8=
+			ueXwWxN3GPnLM/XVTjeBNSoJaUAue07hEMEXQ5FI2kI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
