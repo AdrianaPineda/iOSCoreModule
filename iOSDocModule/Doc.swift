@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import iOSCommonModule
+@_implementationOnly import iOSCommonModule
 
 @objc public class Doc: NSObject {
     public func test() -> String {
