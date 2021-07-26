@@ -40,7 +40,33 @@
 		011E8DA726AA288C00DA2104 /* iOSDocModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 011E8D9E26AA285700DA2104 /* iOSDocModule.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		011E8DAD26AA28E300DA2104 /* Doc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011E8DAC26AA28E300DA2104 /* Doc.swift */; };
 		01565DBE26AF15B8004E4E48 /* iOSCommonModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 01565DBC26AF15B8004E4E48 /* iOSCommonModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01565DC226AF165D004E4E48 /* iOSCommonModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01565DBA26AF15B8004E4E48 /* iOSCommonModule.framework */; };
+		01565DC326AF165D004E4E48 /* iOSCommonModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01565DBA26AF15B8004E4E48 /* iOSCommonModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01565DC426AF165E004E4E48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 011E8D7F26AA26F400DA2104 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01565DB926AF15B8004E4E48;
+			remoteInfo = iOSCommonModule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		01565DC626AF165E004E4E48 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				01565DC326AF165D004E4E48 /* iOSCommonModule.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		011E8D8826AA26F400DA2104 /* iOSCoreModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSCoreModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +90,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				011E8DA726AA288C00DA2104 /* iOSDocModule.framework in Frameworks */,
+				01565DC226AF165D004E4E48 /* iOSCommonModule.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,10 +210,12 @@
 				011E8D8526AA26F400DA2104 /* Frameworks */,
 				011E8D8626AA26F400DA2104 /* Resources */,
 				011E8DAE26AA315000DA2104 /* Build framework */,
+				01565DC626AF165E004E4E48 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				01565DC526AF165E004E4E48 /* PBXTargetDependency */,
 			);
 			name = iOSCoreModule;
 			productName = iOSCoreModule;
@@ -399,6 +428,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01565DC526AF165E004E4E48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01565DB926AF15B8004E4E48 /* iOSCommonModule */;
+			targetProxy = 01565DC426AF165E004E4E48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		011E8D8E26AA26F400DA2104 /* Debug */ = {

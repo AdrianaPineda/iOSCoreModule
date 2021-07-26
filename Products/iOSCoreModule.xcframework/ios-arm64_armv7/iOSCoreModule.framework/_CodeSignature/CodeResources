@@ -4,6 +4,18 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Frameworks/iOSCommonModule.framework/Info.plist</key>
+		<data>
+		w+2oqcZG2WzZYxX4X7SzUR6E08g=
+		</data>
+		<key>Frameworks/iOSCommonModule.framework/_CodeSignature/CodeResources</key>
+		<data>
+		2ixvMwp7fwY8dG4tmSdhvmFoWzc=
+		</data>
+		<key>Frameworks/iOSCommonModule.framework/iOSCommonModule</key>
+		<data>
+		VFx2Gcf62lkE9I9QaPZN0ye+Wv8=
+		</data>
 		<key>Headers/OptionalDepBridge.h</key>
 		<data>
 		aidQPMeERNNt5P33J7A2JcG8v9k=
@@ -107,6 +119,39 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/iOSCommonModule.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			w+2oqcZG2WzZYxX4X7SzUR6E08g=
+			</data>
+			<key>hash2</key>
+			<data>
+			sQOOUMxqK2vICf2o7N8pnZr4z7vXNxosiOFYMUoU5UI=
+			</data>
+		</dict>
+		<key>Frameworks/iOSCommonModule.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2ixvMwp7fwY8dG4tmSdhvmFoWzc=
+			</data>
+			<key>hash2</key>
+			<data>
+			nTKWQCv85mxQPuwQC6zrDsxL3O8p7bWC0TS+hT6gCbg=
+			</data>
+		</dict>
+		<key>Frameworks/iOSCommonModule.framework/iOSCommonModule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VFx2Gcf62lkE9I9QaPZN0ye+Wv8=
+			</data>
+			<key>hash2</key>
+			<data>
+			f8PS9fOwzKJQVPJ7a/DZleOGm+CXOPQJrq7JRSOTmvU=
+			</data>
+		</dict>
 		<key>Headers/OptionalDepBridge.h</key>
 		<dict>
 			<key>hash</key>
