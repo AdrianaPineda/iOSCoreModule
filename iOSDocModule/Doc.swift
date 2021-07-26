@@ -6,9 +6,14 @@
 //
 
 import Foundation
+import iOSCommonModule
 
 @objc public class Doc: NSObject {
     public func test() -> String {
         return "DOC"
+    }
+
+    public func testCommon() -> Bool {
+        return BrandTheme(primaryColor: nil, secondaryColor: nil, fontColor: nil) != nil
     }
 }

@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/apineda/Library/Developer/Xcode/DerivedData/iOSCoreModule-glxxzloisdxojyhikjjfsgyfumig/Build/Products/Debug-iphoneos/iOSCommonModule.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/apineda/Documents/truora/samples/modularized-ios/iOSCoreModule/build/iOSCoreModule.build/Debug-iphoneos/iOSCommonModule.build/unextended-module.modulemap",
+    }]
+  }]
+}

@@ -4,3 +4,8 @@ framework module iOSCommonModule {
   export *
   module * { export * }
 }
+
+module iOSCommonModule.Swift {
+    header "iOSCommonModule-Swift.h"
+    requires objc
+}
