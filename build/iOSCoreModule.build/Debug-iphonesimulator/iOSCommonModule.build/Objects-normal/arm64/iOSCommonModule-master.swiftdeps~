@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)"
 options: "49bb409d923c59150d2ed5f3f634a593"
-build_time: [1627323365, 10331000]
+build_time: [1627325399, 435653000]
 inputs:
   "/Users/apineda/Documents/truora/samples/modularized-ios/iOSCoreModule/iOSCommonModule/CustomTheme.swift": [1627068562, 0]
   "/Users/apineda/Documents/truora/samples/modularized-ios/iOSCoreModule/iOSCommonModule/BrandTheme.swift": [1627318501, 894335221]

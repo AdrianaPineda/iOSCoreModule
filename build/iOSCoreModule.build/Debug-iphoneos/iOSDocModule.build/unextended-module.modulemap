@@ -1,0 +1,10 @@
+framework module iOSDocModule {
+  umbrella header "iOSDocModule.h"
+
+  export *
+  module * { export * }
+}
+
+module iOSDocModule.__Swift {
+    exclude header "iOSDocModule-Swift.h"
+}
