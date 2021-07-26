@@ -42,10 +42,18 @@
 		01565DBE26AF15B8004E4E48 /* iOSCommonModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 01565DBC26AF15B8004E4E48 /* iOSCommonModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		01565DC226AF165D004E4E48 /* iOSCommonModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01565DBA26AF15B8004E4E48 /* iOSCommonModule.framework */; };
 		01565DC326AF165D004E4E48 /* iOSCommonModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01565DBA26AF15B8004E4E48 /* iOSCommonModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		01565DC726AF1702004E4E48 /* iOSCommonModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01565DBA26AF15B8004E4E48 /* iOSCommonModule.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		01565DC426AF165E004E4E48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 011E8D7F26AA26F400DA2104 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01565DB926AF15B8004E4E48;
+			remoteInfo = iOSCommonModule;
+		};
+		01565DC926AF1702004E4E48 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 011E8D7F26AA26F400DA2104 /* Project object */;
 			proxyType = 1;
@@ -98,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01565DC726AF1702004E4E48 /* iOSCommonModule.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +244,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				01565DCA26AF1702004E4E48 /* PBXTargetDependency */,
 			);
 			name = iOSDocModule;
 			productName = iOSDocModule;
@@ -434,6 +444,11 @@
 			isa = PBXTargetDependency;
 			target = 01565DB926AF15B8004E4E48 /* iOSCommonModule */;
 			targetProxy = 01565DC426AF165E004E4E48 /* PBXContainerItemProxy */;
+		};
+		01565DCA26AF1702004E4E48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01565DB926AF15B8004E4E48 /* iOSCommonModule */;
+			targetProxy = 01565DC926AF1702004E4E48 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
