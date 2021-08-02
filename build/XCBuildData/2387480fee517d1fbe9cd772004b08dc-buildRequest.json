@@ -1,0 +1,40 @@
+{
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "5983b1aa7933aa2161bf0edf96b68001e7efb065a9224aa7fae9dd7026e008f6"
+    }
+  ],
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "configurationName" : "Debug",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "BUILD_DIR" : "/Users/checho/Library/Developer/Xcode/DerivedData/iOSCoreModule-cppjxsdzwxovphcvuzvdsfhpopgj/Build/Products",
+          "BUILD_LIBRARY_FOR_DISTRIBUTION" : "YES",
+          "ONLY_ACTIVE_ARCH" : "NO",
+          "SDKROOT" : "iphonesimulator14.5",
+          "TOOLCHAINS" : "com.apple.dt.toolchain.XcodeDefault"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      },
+      "toolchainOverride" : "com.apple.dt.toolchain.XcodeDefault"
+    }
+  },
+  "schemeCommand" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : false,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : false
+}

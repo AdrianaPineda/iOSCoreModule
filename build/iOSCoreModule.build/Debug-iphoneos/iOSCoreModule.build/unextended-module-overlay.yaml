@@ -3,11 +3,11 @@
   'case-sensitive': 'false',
   'roots': [{
     'type': 'directory',
-    'name': "/Users/apineda/Library/Developer/Xcode/DerivedData/iOSCoreModule-glxxzloisdxojyhikjjfsgyfumig/Build/Products/Debug-iphoneos/iOSCoreModule.framework/Modules"
+    'name': "/Users/checho/Library/Developer/Xcode/DerivedData/iOSCoreModule-cppjxsdzwxovphcvuzvdsfhpopgj/Build/Products/Debug-iphoneos/iOSCoreModule.framework/Modules"
     'contents': [{
       'type': 'file',
       'name': "module.modulemap",
-      'external-contents': "/Users/apineda/Documents/truora/samples/modularized-ios/iOSCoreModule/build/iOSCoreModule.build/Debug-iphoneos/iOSCoreModule.build/unextended-module.modulemap",
+      'external-contents': "/Users/checho/Documents/Truora/Repos/cocoa-pods-sample-app/iOSCoreModule/build/iOSCoreModule.build/Debug-iphoneos/iOSCoreModule.build/unextended-module.modulemap",
     }]
   }]
 }

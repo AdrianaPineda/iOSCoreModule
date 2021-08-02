@@ -37,12 +37,8 @@
 		011E8D9626AA279F00DA2104 /* OptionalDepBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 011E8D9426AA279F00DA2104 /* OptionalDepBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		011E8D9826AA27F400DA2104 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011E8D9726AA27F400DA2104 /* Core.swift */; };
 		011E8DA226AA285700DA2104 /* iOSDocModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 011E8DA026AA285700DA2104 /* iOSDocModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		011E8DA726AA288C00DA2104 /* iOSDocModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 011E8D9E26AA285700DA2104 /* iOSDocModule.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		011E8DAD26AA28E300DA2104 /* Doc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011E8DAC26AA28E300DA2104 /* Doc.swift */; };
 		01565DBE26AF15B8004E4E48 /* iOSCommonModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 01565DBC26AF15B8004E4E48 /* iOSCommonModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01565DC226AF165D004E4E48 /* iOSCommonModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01565DBA26AF15B8004E4E48 /* iOSCommonModule.framework */; };
-		01565DC326AF165D004E4E48 /* iOSCommonModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01565DBA26AF15B8004E4E48 /* iOSCommonModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		01565DC726AF1702004E4E48 /* iOSCommonModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01565DBA26AF15B8004E4E48 /* iOSCommonModule.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		01565DCF26AF2035004E4E48 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01565DCC26AF2035004E4E48 /* UIColor+Extensions.swift */; };
 		01565DD026AF2035004E4E48 /* CustomTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01565DCD26AF2035004E4E48 /* CustomTheme.swift */; };
 		01565DD126AF2035004E4E48 /* BrandTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01565DCE26AF2035004E4E48 /* BrandTheme.swift */; };
@@ -72,7 +68,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				01565DC326AF165D004E4E48 /* iOSCommonModule.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -80,17 +75,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		011E8D8826AA26F400DA2104 /* iOSCoreModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSCoreModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		011E8D8826AA26F400DA2104 /* iOSCoreModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iOSCoreModule.framework; path = "/Users/checho/Documents/Truora/Repos/cocoa-pods-sample-app/iOSCoreModule/build/Debug-iphoneos/iOSCoreModule.framework"; sourceTree = "<absolute>"; };
 		011E8D8B26AA26F400DA2104 /* iOSCoreModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSCoreModule.h; sourceTree = "<group>"; };
 		011E8D8C26AA26F400DA2104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		011E8D9326AA279F00DA2104 /* OptionalDepBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionalDepBridge.m; sourceTree = "<group>"; };
 		011E8D9426AA279F00DA2104 /* OptionalDepBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionalDepBridge.h; sourceTree = "<group>"; };
 		011E8D9726AA27F400DA2104 /* Core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
-		011E8D9E26AA285700DA2104 /* iOSDocModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSDocModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		011E8D9E26AA285700DA2104 /* iOSDocModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iOSDocModule.framework; path = "/Users/checho/Documents/Truora/Repos/cocoa-pods-sample-app/iOSCoreModule/build/Debug-iphoneos/iOSDocModule.framework"; sourceTree = "<absolute>"; };
 		011E8DA026AA285700DA2104 /* iOSDocModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSDocModule.h; sourceTree = "<group>"; };
 		011E8DA126AA285700DA2104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		011E8DAC26AA28E300DA2104 /* Doc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doc.swift; sourceTree = "<group>"; };
-		01565DBA26AF15B8004E4E48 /* iOSCommonModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSCommonModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01565DBA26AF15B8004E4E48 /* iOSCommonModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iOSCommonModule.framework; path = "/Users/checho/Documents/Truora/Repos/cocoa-pods-sample-app/iOSCoreModule/build/Debug-iphoneos/iOSCommonModule.framework"; sourceTree = "<absolute>"; };
 		01565DBC26AF15B8004E4E48 /* iOSCommonModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSCommonModule.h; sourceTree = "<group>"; };
 		01565DBD26AF15B8004E4E48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01565DCC26AF2035004E4E48 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
@@ -103,8 +98,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				011E8DA726AA288C00DA2104 /* iOSDocModule.framework in Frameworks */,
-				01565DC226AF165D004E4E48 /* iOSCommonModule.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +105,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01565DC726AF1702004E4E48 /* iOSCommonModule.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,19 +124,8 @@
 				011E8D8A26AA26F400DA2104 /* iOSCoreModule */,
 				011E8D9F26AA285700DA2104 /* iOSDocModule */,
 				01565DBB26AF15B8004E4E48 /* iOSCommonModule */,
-				011E8D8926AA26F400DA2104 /* Products */,
 				011E8DA626AA288C00DA2104 /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		011E8D8926AA26F400DA2104 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				011E8D8826AA26F400DA2104 /* iOSCoreModule.framework */,
-				011E8D9E26AA285700DA2104 /* iOSDocModule.framework */,
-				01565DBA26AF15B8004E4E48 /* iOSCommonModule.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		011E8D8A26AA26F400DA2104 /* iOSCoreModule */ = {
@@ -312,7 +293,7 @@
 				Base,
 			);
 			mainGroup = 011E8D7E26AA26F400DA2104;
-			productRefGroup = 011E8D8926AA26F400DA2104 /* Products */;
+			productRefGroup = 011E8D7E26AA26F400DA2104;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
