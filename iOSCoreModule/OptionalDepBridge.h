@@ -7,6 +7,8 @@
 
 #import <Foundation/Foundation.h>
 //#import <iOSCoreModule/iOSCoreModule-Swift.h>
+#import <iOSCommonModule/iOSCommonModule-Swift.h>
+#import <iOSDocModule/iOSDocModule-Swift.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -14,6 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (BOOL)additionalModuleAvailable;
 - (NSString *)startDummyDoc;
+- (CustomTheme *)startDocCommon: (BrandTheme *)theme;
 
 @end
 

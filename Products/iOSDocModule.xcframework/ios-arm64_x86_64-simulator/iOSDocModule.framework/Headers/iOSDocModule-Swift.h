@@ -208,9 +208,14 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
+@class NSString;
+@class BrandTheme;
+@class CustomTheme;
 
 SWIFT_CLASS("_TtC12iOSDocModule3Doc")
 @interface Doc : NSObject
+- (NSString * _Nonnull)test SWIFT_WARN_UNUSED_RESULT;
+- (CustomTheme * _Nonnull)testCommonWithTheme:(BrandTheme * _Nonnull)theme SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -429,9 +434,14 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
+@class NSString;
+@class BrandTheme;
+@class CustomTheme;
 
 SWIFT_CLASS("_TtC12iOSDocModule3Doc")
 @interface Doc : NSObject
+- (NSString * _Nonnull)test SWIFT_WARN_UNUSED_RESULT;
+- (CustomTheme * _Nonnull)testCommonWithTheme:(BrandTheme * _Nonnull)theme SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

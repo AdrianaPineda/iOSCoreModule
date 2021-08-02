@@ -5,12 +5,15 @@ import Foundation
 import Swift
 import UIKit
 @_exported import iOSCommonModule
-public class CustomTheme {
+@objc public class CustomTheme : ObjectiveC.NSObject {
   public init(brandTheme: iOSCommonModule.BrandTheme? = nil)
+  @objc override dynamic public init()
   @objc deinit
 }
-public struct BrandTheme : Swift.Codable {
+@objc public class BrandTheme : ObjectiveC.NSObject, Swift.Codable {
   public init(primaryColor: Swift.String?, secondaryColor: Swift.String?, fontColor: Swift.String?)
-  public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: Swift.Decoder) throws
   public func encode(to encoder: Swift.Encoder) throws
+  @objc override dynamic public init()
+  @objc deinit
 }

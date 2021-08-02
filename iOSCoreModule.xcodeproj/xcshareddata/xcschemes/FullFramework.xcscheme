@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "01CB30C826AB1D7700616849"
-               BuildableName = "iOSCoreFramework"
-               BlueprintName = "iOSCoreFramework"
+               BuildableName = "FullFramework"
+               BlueprintName = "FullFramework"
                ReferencedContainer = "container:iOSCoreModule.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -51,8 +51,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "01CB30C826AB1D7700616849"
-            BuildableName = "iOSCoreFramework"
-            BlueprintName = "iOSCoreFramework"
+            BuildableName = "FullFramework"
+            BlueprintName = "FullFramework"
             ReferencedContainer = "container:iOSCoreModule.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

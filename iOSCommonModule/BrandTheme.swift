@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct BrandTheme: Codable {
+@objc public class BrandTheme: NSObject, Codable {
     let primaryColor: String?
     let secondaryColor: String?
     let fontColor: String?
@@ -28,7 +28,7 @@ public struct BrandTheme: Codable {
         self.fontColor = fontColor
     }
 
-    public init(from decoder: Decoder) throws {
+    required public init(from decoder: Decoder) throws {
         let values = try decoder.container(keyedBy: CodingKeys.self)
         primaryColor = try? values.decode(String.self, forKey: .primaryColor)
         secondaryColor = try? values.decode(String.self, forKey: .secondaryColor)

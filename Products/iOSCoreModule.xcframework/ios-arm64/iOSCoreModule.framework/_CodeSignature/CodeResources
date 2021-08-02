@@ -14,11 +14,11 @@
 		</data>
 		<key>Frameworks/iOSCommonModule.framework/iOSCommonModule</key>
 		<data>
-		TAGfGDluZ0UCWccIUt2dFJf1/U8=
+		vjR7jsEQ40EJSpHWpibFXZbo9Cw=
 		</data>
 		<key>Headers/OptionalDepBridge.h</key>
 		<data>
-		aidQPMeERNNt5P33J7A2JcG8v9k=
+		mwSaEqDsVgbVAwuCqi+HCZRnMFs=
 		</data>
 		<key>Headers/iOSCoreModule-Swift.h</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/iOSCoreModule.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		fedOASYnx70C4lNEWSaW0iwZ6QI=
+		rXZEJ4WL40YhtlbiJb+MRpafSYQ=
 		</data>
 		<key>Modules/iOSCoreModule.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		fedOASYnx70C4lNEWSaW0iwZ6QI=
+		rXZEJ4WL40YhtlbiJb+MRpafSYQ=
 		</data>
 		<key>Modules/iOSCoreModule.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/iOSCoreModule.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		5VgTlhRiNgM3cqi9Vycwb1sru3Y=
+		2vs2z9Sn2anMskNNeOPExeDKFCQ=
 		</data>
 		<key>Modules/iOSCoreModule.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		G6H1Dt3Y0V5z1WYV/Zjdhlr/F3g=
+		f6KtrMb9d9komXTeIk6txYBM1MY=
 		</data>
 		<key>Modules/iOSCoreModule.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/iOSCoreModule.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		5VgTlhRiNgM3cqi9Vycwb1sru3Y=
+		2vs2z9Sn2anMskNNeOPExeDKFCQ=
 		</data>
 		<key>Modules/iOSCoreModule.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		G6H1Dt3Y0V5z1WYV/Zjdhlr/F3g=
+		f6KtrMb9d9komXTeIk6txYBM1MY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -89,14 +89,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BMZAMvaL1TBYDfmbLm+LN60t1bIzp7TVpT+qoaCv/e4=
+			m30/F3P0LGZS4cYcHgtS5oP1Yg9Y8zpnh0wKMWPM6h0=
 			</data>
 		</dict>
 		<key>Headers/OptionalDepBridge.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XRcD7Kj0tVbwkp6053HISdAS1O94PLtuO3GAC9ZJng0=
+			qOgfPf20W1a4MDSjpmtGYBoHjgSIU/ezzlWM5Zb0IWo=
 			</data>
 		</dict>
 		<key>Headers/iOSCoreModule-Swift.h</key>
@@ -117,14 +117,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			o0xzADyZLp49Dlzz288SLE0GL8aDgJKtIeKIckvx96Q=
+			Lv4GlO5MDEKVjVKNMsLz4hQz+r6VSm16QBEJak7zeF4=
 			</data>
 		</dict>
 		<key>Modules/iOSCoreModule.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			o0xzADyZLp49Dlzz288SLE0GL8aDgJKtIeKIckvx96Q=
+			Lv4GlO5MDEKVjVKNMsLz4hQz+r6VSm16QBEJak7zeF4=
 			</data>
 		</dict>
 		<key>Modules/iOSCoreModule.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -138,14 +138,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vERlRPTYbz8Cb6axvRCU+h0OjpQ5yxH3nj04EYLUzJo=
+			bWPy2JlSMEr4V7r9nEHex7yCdg3gN0ue0LnI2K/Zfm8=
 			</data>
 		</dict>
 		<key>Modules/iOSCoreModule.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q+aj1+52okWh1fC2ZywueLwuP2KOXoKViSBdhBXbxq0=
+			ir7oHFPuCJlo2aWzX6cQhC6leaehLKEhVObE6CJ2+4w=
 			</data>
 		</dict>
 		<key>Modules/iOSCoreModule.swiftmodule/arm64.swiftdoc</key>
@@ -159,14 +159,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vERlRPTYbz8Cb6axvRCU+h0OjpQ5yxH3nj04EYLUzJo=
+			bWPy2JlSMEr4V7r9nEHex7yCdg3gN0ue0LnI2K/Zfm8=
 			</data>
 		</dict>
 		<key>Modules/iOSCoreModule.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q+aj1+52okWh1fC2ZywueLwuP2KOXoKViSBdhBXbxq0=
+			ir7oHFPuCJlo2aWzX6cQhC6leaehLKEhVObE6CJ2+4w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

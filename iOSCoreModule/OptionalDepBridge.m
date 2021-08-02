@@ -7,6 +7,7 @@
 
 #import "OptionalDepBridge.h"
 @import iOSDocModule;
+@import iOSCommonModule;
 
 @implementation OptionalDepBridge
 
@@ -17,6 +18,15 @@
         return NO;
     }
 }
+- (CustomTheme *)startDocCommon: (BrandTheme *)theme {
+    if ([OptionalDepBridge additionalModuleAvailable]) {
+        Doc *docFile = [[Doc alloc] init];
+        return [docFile testCommonWithTheme:theme];
+    } else {
+        return NULL;
+    }
+}
+
 - (NSString *)startDummyDoc {
     if ([OptionalDepBridge additionalModuleAvailable]) {
         return @"YES";

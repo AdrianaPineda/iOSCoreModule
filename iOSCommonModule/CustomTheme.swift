@@ -15,7 +15,7 @@ enum TruoraColors: String {
     case loadingText = "truora_loading_text_color"
 }
 
-public class CustomTheme {
+@objc public class CustomTheme: NSObject {
     private var brandTheme: BrandTheme?
 
     public init(brandTheme: BrandTheme? = nil) {
