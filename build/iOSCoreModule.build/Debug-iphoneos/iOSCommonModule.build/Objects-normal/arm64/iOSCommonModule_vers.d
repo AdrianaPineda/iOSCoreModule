@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/apineda/Documents/truora/samples/modularized-ios/iOSCoreModule/build/iOSCoreModule.build/Debug-iphoneos/iOSCommonModule.build/DerivedSources/iOSCommonModule_vers.c
+  /Users/lauradonado/git/iOSCoreModule/build/iOSCoreModule.build/Debug-iphoneos/iOSCommonModule.build/DerivedSources/iOSCommonModule_vers.c

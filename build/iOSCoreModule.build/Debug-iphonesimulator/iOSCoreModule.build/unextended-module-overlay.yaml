@@ -3,11 +3,11 @@
   'case-sensitive': 'false',
   'roots': [{
     'type': 'directory',
-    'name': "/Users/apineda/Library/Developer/Xcode/DerivedData/iOSCoreModule-glxxzloisdxojyhikjjfsgyfumig/Build/Products/Debug-iphonesimulator/iOSCoreModule.framework/Modules"
+    'name': "/Users/lauradonado/Library/Developer/Xcode/DerivedData/iOSCoreModule-etlhsqjsnluvfjgmaihigfircyxn/Build/Products/Debug-iphonesimulator/iOSCoreModule.framework/Modules"
     'contents': [{
       'type': 'file',
       'name': "module.modulemap",
-      'external-contents': "/Users/apineda/Documents/truora/samples/modularized-ios/iOSCoreModule/build/iOSCoreModule.build/Debug-iphonesimulator/iOSCoreModule.build/unextended-module.modulemap",
+      'external-contents': "/Users/lauradonado/git/iOSCoreModule/build/iOSCoreModule.build/Debug-iphonesimulator/iOSCoreModule.build/unextended-module.modulemap",
     }]
   }]
 }

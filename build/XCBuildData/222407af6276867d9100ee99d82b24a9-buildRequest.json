@@ -2,7 +2,7 @@
   "buildCommand" : "build",
   "configuredTargets" : [
     {
-      "guid" : "de623e13c25abb82fc271f6c1bc99776e7efb065a9224aa7fae9dd7026e008f6"
+      "guid" : "a3783686f909eeefde817d2d870c66635266d0eb26aeca5fee86e5a5f4eb9c85"
     }
   ],
   "continueBuildingAfterErrors" : false,
@@ -14,10 +14,10 @@
     "overrides" : {
       "commandLine" : {
         "table" : {
-          "BUILD_DIR" : "/Users/apineda/Library/Developer/Xcode/DerivedData/iOSCoreModule-glxxzloisdxojyhikjjfsgyfumig/Build/Products",
+          "BUILD_DIR" : "/Users/lauradonado/Library/Developer/Xcode/DerivedData/iOSCoreModule-etlhsqjsnluvfjgmaihigfircyxn/Build/Products",
           "BUILD_LIBRARY_FOR_DISTRIBUTION" : "YES",
           "ONLY_ACTIVE_ARCH" : "NO",
-          "SDKROOT" : "iphoneos14.5",
+          "SDKROOT" : "iphonesimulator14.5",
           "TOOLCHAINS" : "com.apple.dt.toolchain.XcodeDefault"
         }
       },

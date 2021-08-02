@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "iOSCoreModule"
-  spec.version      = "0.14.0"
-  spec.summary      = "Sample po that includes Core and optional doc module"
+  spec.version      = "0.14.1"
+  spec.summary      = "Sample pod that includes Core and optional doc module"
   spec.description  = "Custom sample sdk cocoapods to test core and optional module. Includes core and optional doc module"
   spec.homepage     = "https://github.com/AdrianaPineda/iOSCoreModule"
   spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
