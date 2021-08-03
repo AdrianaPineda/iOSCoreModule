@@ -1,5 +1,5 @@
 version: "Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)"
 options: "4cf41e5193f9147f7efa26028d5c5186"
-build_time: [1627941101, 217748000]
+build_time: [1627951114, 983330000]
 inputs:
   "/Users/apineda/Documents/truora/samples/modularized-ios/iOSCoreModule/iOSCoreModule/Core.swift": [1627940996, 727353296]

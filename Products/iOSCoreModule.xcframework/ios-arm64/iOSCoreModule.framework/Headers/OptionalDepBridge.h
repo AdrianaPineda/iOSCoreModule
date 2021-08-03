@@ -8,7 +8,7 @@
 #import <Foundation/Foundation.h>
 //#import <iOSCoreModule/iOSCoreModule-Swift.h>
 #import <iOSCommonModule/iOSCommonModule-Swift.h>
-#import <iOSDocModule/iOSDocModule-Swift.h>
+//#import <iOSDocModule/iOSDocModule-Swift.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
