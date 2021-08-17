@@ -29,9 +29,9 @@
 		011E8DA726AA288C00DA2104 /* iOSDocModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 011E8D9E26AA285700DA2104 /* iOSDocModule.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		011E8DAD26AA28E300DA2104 /* Doc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011E8DAC26AA28E300DA2104 /* Doc.swift */; };
 		01565DBE26AF15B8004E4E48 /* iOSCommonModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 01565DBC26AF15B8004E4E48 /* iOSCommonModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01565DC226AF165D004E4E48 /* iOSCommonModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01565DBA26AF15B8004E4E48 /* iOSCommonModule.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		01565DC226AF165D004E4E48 /* iOSCommonModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01565DBA26AF15B8004E4E48 /* iOSCommonModule.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		01565DC326AF165D004E4E48 /* iOSCommonModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 01565DBA26AF15B8004E4E48 /* iOSCommonModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		01565DC726AF1702004E4E48 /* iOSCommonModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01565DBA26AF15B8004E4E48 /* iOSCommonModule.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		01565DC726AF1702004E4E48 /* iOSCommonModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01565DBA26AF15B8004E4E48 /* iOSCommonModule.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		01565DCF26AF2035004E4E48 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01565DCC26AF2035004E4E48 /* UIColor+Extensions.swift */; };
 		01565DD026AF2035004E4E48 /* CustomTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01565DCD26AF2035004E4E48 /* CustomTheme.swift */; };
 		01565DD126AF2035004E4E48 /* BrandTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01565DCE26AF2035004E4E48 /* BrandTheme.swift */; };
