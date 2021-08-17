@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "iOSCoreModule"
-  spec.version      = "0.14.15"
+  spec.version      = "0.14.16"
   spec.summary      = "Sample po that includes Core and optional doc module"
   spec.description  = "Custom sample sdk cocoapods to test core and optional module. Includes core and optional doc module"
   spec.homepage     = "https://github.com/AdrianaPineda/iOSCoreModule"
@@ -22,14 +22,10 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "11.0"
 
   spec.subspec 'iOSCoreOnlyModule' do |subspec|
-    subspec.vendored_frameworks = ['Products/iOSCoreOnlyModule.xcframework']
+    subspec.vendored_frameworks = ['Products/iOSCoreOnlyModule.xcframework', 'Products/iOSCommonModule.xcframework']
   end
 
   spec.subspec 'iOSDocModule' do |subspec|
-    subspec.vendored_frameworks = ['Products/iOSDocModule.xcframework']
-  end
-
-  spec.subspec 'iOSCommonModule' do |subspec|
-    subspec.vendored_frameworks = ['Products/iOSCommonModule.xcframework']
+    subspec.vendored_frameworks = ['Products/iOSDocModule.xcframework', 'Products/iOSCommonModule.xcframework']
   end
 end
