@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -21,6 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		011204B42710FA5D0082A28F /* Alamofire.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 011204B32710FA5D0082A28F /* Alamofire.xcframework */; };
 		011E8D8D26AA26F400DA2104 /* iOSCoreOnlyModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 011E8D8B26AA26F400DA2104 /* iOSCoreOnlyModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		011E8D9526AA279F00DA2104 /* OptionalDepBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 011E8D9326AA279F00DA2104 /* OptionalDepBridge.m */; };
 		011E8D9626AA279F00DA2104 /* OptionalDepBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 011E8D9426AA279F00DA2104 /* OptionalDepBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -69,6 +70,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		011204B32710FA5D0082A28F /* Alamofire.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Alamofire.xcframework; path = Carthage/Build/Alamofire.xcframework; sourceTree = "<group>"; };
 		011E8D8826AA26F400DA2104 /* iOSCoreOnlyModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSCoreOnlyModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		011E8D8B26AA26F400DA2104 /* iOSCoreOnlyModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSCoreOnlyModule.h; sourceTree = "<group>"; };
 		011E8D8C26AA26F400DA2104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				011204B42710FA5D0082A28F /* Alamofire.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +164,7 @@
 		011E8DA626AA288C00DA2104 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				011204B32710FA5D0082A28F /* Alamofire.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
