@@ -1,7 +1,0 @@
-version: "Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)"
-options: "5f72bcc38aad347d249b0c4f1bd29637"
-build_time: [1633731311, 553202000]
-inputs:
-  "/Users/apineda/Documents/truora/samples/modularized-ios/iOSCoreModule/iOSCommonModule/CustomTheme.swift": [1629232707, 152370647]
-  "/Users/apineda/Documents/truora/samples/modularized-ios/iOSCoreModule/iOSCommonModule/BrandTheme.swift": [1629232707, 152244191]
-  "/Users/apineda/Documents/truora/samples/modularized-ios/iOSCoreModule/iOSCommonModule/UIColor+Extensions.swift": [1627066406, 0]

@@ -1,4 +1,0 @@
-Target dependency graph (2 targets)
-iOSCommonModule in iOSCoreModule
-iOSCoreOnlyModule in iOSCoreModule, depends on:
-iOSCommonModule in iOSCoreModule (explicit)
